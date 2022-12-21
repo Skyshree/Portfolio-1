@@ -1,0 +1,203 @@
+1. Create a web page to display the course syllabus.
+<!DOCTYPE html>
+<html>
+<head>
+<title> web programming</title></head>
+<body bgcolor="grey">
+<h1 align="center">Web Programming Syllabus</h1>
+<h2 align="center"> unit1 </h2>
+<p><b><u>Fundamental of web</b></u>:Internet, WWW, Web browser, and Web server, 
+standard XTML, hypertext links</p>
+<h2 align="center"> unit2 </h2>
+<p><b><u>HTML and XHTML</b></u>:forms,frames in HTML nadXHTML,syntactic 
+differences between HTML and XHTML,CSS-level of style sheet,style specification 
+formats,alignment of text,conflict resolutions</p>
+<h2 align="center"> unit3 </h2>
+<p><b><u>overview of javascript</b></u>:object oriented and javascript,general syntax and 
+characteristics,screen output and keybordinput,object creation and 
+modification,arrays,functions,constructor,pattern matching using expressions,errors and 
+scripts,examples</p>
+<h2 align="center"> unit4 </h2>
+<p><b><u>java script and HTML documents</b></u>:javascript execution 
+environment,document object model,elements access in javascript,events and event 
+handling,handling events from the body elements,bottomelements,text box and password 
+elements,the DOM 2 events model,the navigator</p>
+</body>
+</html>
+
+
+≠=========================================
+
+2. Design student details in first page and result in next page, link both pages using 
+hyper links.
+ First Page:-
+<!DOCTYPE html>
+<html>
+<head>
+<title>links</title>
+</head>
+<body>
+<h1>this is the demo for linking page</h1>
+<h1>Student Information</h1>
+<h3>name:Nethravathi.g</h3>
+<h3>USN:R15CA097</h3>
+<h3>class:6thsem</h3>
+<h3>sec:B</h3>
+<h3>Branch:BCA</h3>
+<h3>ph.no:9535291111</h3>
+<h3>collage-<font color="blue">REVA UNIVERSITY</font></h3>
+<h1><a href="Second.html">DISPLAY RESULTS</a></h1>
+</body>
+</html>
+Second Page: - Second.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>link</title>
+<body>
+<h1 align="center">display result </h1>
+<h1><a href="demo.html">go back to Student Information</a></h1>
+<table border="1">
+<tr>
+<th>semister</th>
+<th>percentage</th>
+<th>result</th>
+</tr>
+<tr>
+<th>1</th>
+<td>8.0</td>
+<td>distinction</tr>
+</tr>
+<tr>
+<th>2</th>
+<td>8.5</td>
+<td>distinction</tr>
+</tr>
+<tr>
+<th>3</th>
+<td>7.9</td>
+<td>distinction</tr>
+</tr>
+<tr>
+<th>4</th>
+<td>6.9</td>
+<td>first class</tr>
+</tr>
+<tr>
+<th>5</th>
+<td>6.4</td>
+<td>second class</tr>
+</tr>
+<tr>
+<th>6</th>
+<td colspan="3">pursuing</td>
+</tr>
+</table>
+</body>
+</html>
+
+================================
+
+3. Create a web page for class time table.
+<html>
+<head>
+<title>time table</title></head>
+<body>
+<table bgcolor="pink" border="10" align="center" cellspacing="20" cellpadding="30" >
+<tr>
+<thcolspan=8> 6th sem time table BCA 2017-18</th>
+</tr>
+<tr>
+<th>day/time</th>
+<th>8:30-9:30</th>
+<th>9:30-10:30</th>
+<th>10:30-10:50</th>
+<th>10:50-11:50</th>
+<th>11:50-12:50</th>
+<th>12:50-1:40</th>
+<th>1:40-2:30</th>
+</tr>
+<tr>
+<td>monday</td>
+<td>web</td>
+<td>cc</td>
+<td rowspan="3">tea break</td>
+<td> web</td>
+<td>cc</td>
+<td rowspan="3">lunch break</td>
+<td>---</td>
+<tr>
+<td>tuesday</td>
+<td>cc</td>
+<td>web</td>
+<td colspan="2">web lab</td>
+<td>cc</td>
+</tr>
+<tr>
+<td>wednesday</td>
+<td colspan="2">cc lab</td>
+<td>web</td>
+<td>web</td>
+<td>cc</td>
+</tr>
+</table>
+</body>
+</html>
+
+===========================
+
+4. Develop a web page with 2 or more images, move images in different directions and 
+write hyper link to any one image.
+<html>
+<head><title>image</title></head>
+<body>
+<marquee direction="up">
+<a href="WPsyllabus.html">
+<img src="images/image1.jpg" height="200" width="200" align="center" 
+style="position:relative" alt="image not found" >
+</a>
+</marquee>
+<marquee direction="down">
+<a href="demo.html">
+<img src="images/image2.jpg" height="200" width="200" align="center" 
+style="position:relative" alt="image not found">
+</a></marquee>
+</body>
+</html>
+
+=========================
+
+5. Create a web page to display the following content using list tag.
+
+</html>
+<head><title>lists</title></head>
+
+<body>
+
+<ol type="1">
+<li>general aviation</li>
+<ol type="1">
+<li>single</li>
+<ol type="a">
+<li>tail wheel</li>
+<li>tricircle</li>
+</ol>
+<li>dual engine</li>
+<ol type="i">
+<li>wing mounted</li>
+<li>push pull mounted</li>
+</ol>
+</ol>
+<li>comercial aviation</li>
+<ol type="I">
+<li>dual engine</li>
+<ul type="circle">
+<li>push-pull</li>
+<li>tri engine</li>
+</ul>
+<li>tri engine</li>
+<ul type="square">
+<li>thrid engine</li>
+<li>second engine</li>
+</ul></ol>
+</body></html>
